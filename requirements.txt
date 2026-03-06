@@ -1,4 +1,26 @@
-streamlit
-langchain
-langchain-groq
-python-dotenv
+# ============================================================
+# PROMPTLAB - DEPENDENCIES
+# ============================================================
+
+# Web Framework
+streamlit>=1.28.0
+
+# LLM
+langchain-groq>=0.1.0
+langchain-core>=0.2.0
+
+# Embeddings (Semantic RAG + Quality Scoring)
+sentence-transformers>=2.2.0
+scikit-learn>=1.3.0
+numpy>=1.24.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# ============================================================
+# SETUP
+# ============================================================
+# 1. pip install -r requirements.txt
+# 2. Create .env with GROQ_API_KEY=gsk_your_key_here
+# 3. streamlit run app.py
+# ============================================================
